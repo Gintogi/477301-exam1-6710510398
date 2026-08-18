@@ -64,6 +64,38 @@
                 <li>วันหยุดนักขัตฤกษ์ ปิดทำการ</li>
             </ol>
 
+            <div>
+                <h3>หากต้องการติดต่อทางเราโปรดใส่ข้อมูลด้านล่าง</h3>
+                <form action="#" method="post" >
+                <label for="txtname">ชื่อ(ไม่จำเป็นต้องใส่ชื่อจริง):</label>
+                <input type="text" id="txtname" name="txtname" maxlength="30">
+                <br>
+                <label for="txtemail">Email:</label>
+                <input type="email" id="txtemail" name="txtemail" required pattern="^[A-za-z0-9
+            _%+-]+@[A-za-z0-9.-]+\.[a-z]{2,}$" title="Please enter valid email address">
+                <br>
+                <label for="txtphone">เบอร์โทรศัพท์:</label>
+                <input type="tel" id= "txtphone" name="txtphone" required patterm="[0-9]{10}" >
+                <br>
+                <label for="txtmessage">เรื่องที่จะติดต่อ:</label>
+                <textarea id="txtmessage "name="txtmessage" ></textarea>
+                <br>
+                <label for="txturl">ลิงค์ภาพดอกไม้ที่ต้องการหา</label>
+                <input type="url" id="txturl" name="txturl">
+                <br>
+
+                <fieldset>
+                    <legend>Prefer Contact method</legend>
+                    <label for="contactphone">Phone</label>
+                    <input type="radio" id="contactphone" name="contactMathod">
+                    <label for="contactemail">Email</label>
+                    <input type="radio" id="contactemail" name="contactMathod" value="email" checked>
+                </fieldset>
+            
+                <br><input type="submit">
+                <input type="reset">
+                
+            </div>
             
         </section>
     </main>
@@ -74,7 +106,8 @@
             <li>Instagram: Golden tree</a></li>
             <li>Telephone: 094-8251964</li>
         </ul>
-
+        <p>Copyright &copy; 2024 ร้านพฤษาทองจำกัด</p>
+        <p>ชื่อ: นายอนพัทย์ บุญรัตน์ รหัสนักศึกษา: 6710510398</p>
     </footer>
    
 </body>
